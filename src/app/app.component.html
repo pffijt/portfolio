@@ -1,10 +1,21 @@
-<nav class="navbar navbar-expand-lg navbar-light" role="navigation">
-  <a class="navbar-brand" routerLink="/">Pepijn Fijt</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-          aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div>
+<nav class="navbar navbar-light fixed-top" role="navigation">
+  <a class="navbar-brand text-light" routerLink="/">Pepijn Fijt</a>
+  <span>
+    <a class="mr-4 text-light" href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+    <a class="text-light" href="#"><i class="fa fa-github fa-2x mr-1"></i>pffijt</a>
+  </span>
 
-  </div>
 </nav>
+<header>
+  <h1 class="header-title text-light p-2">Software developer with interests in mobility solutions.</h1>
+  <div *ngIf="showVideo(); else noVideo" class="header-size" >
+    <video poster="../assets/header_poster.jpg" autoplay="true" muted="true" loop>
+      <source src="../assets/Pexels Videos 2609.mp4" type="video/mp4">
+    </video>
+  </div>
+  <ng-template #noVideo>
+    <div class="header-size">
+      <img src="../assets/header_poster.jpg">
+    </div>
+  </ng-template>
+</header>

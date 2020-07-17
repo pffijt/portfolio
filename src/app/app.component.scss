@@ -1,15 +1,12 @@
-.navbar-collapse.collapsing,
-.navbar-collapse.show {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100vh;
-    width: 100vw;
-    background-color: white;
+
+.header-size video {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
 }
 
-.collapse.show
-.navbar-nav {
-    position: absolute;
-    bottom: 50px;
+.header-size img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
 }

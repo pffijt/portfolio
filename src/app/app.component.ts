@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio';
+
+  showVideo(): boolean {
+    console.log(window.screen.width > 1200);
+    return window.screen.width > 1200;
+  }
 }

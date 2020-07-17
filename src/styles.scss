@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+header {
+    width: 100vw;
+    height: 80vh;
+    background-color: #4e5e76;
+}
+
+.header-title {
+    position: absolute;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2em;
+}
