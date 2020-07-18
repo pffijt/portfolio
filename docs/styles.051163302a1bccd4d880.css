@@ -1,4 +1,4 @@
-.header-title,header{width:100vw;height:80vh}.header-title{position:absolute;display:flex;justify-content:center;flex-direction:column;text-align:center;font-size:2em}
+*{font-family:Open Sans,sans-serif}h1{font-family:Playfair Display,serif}.header-title,header{width:100vw;height:80vh}.header-title{position:absolute;display:flex;justify-content:center;flex-direction:column;text-align:center;font-size:2em}
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

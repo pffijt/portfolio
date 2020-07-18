@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'portfolio';
+  title = 'Pepijn Fijt | Portfolio | Software developer | Rotterdam';
 
   showVideo(): boolean {
     console.log(window.screen.width > 1200);
