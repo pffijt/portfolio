@@ -9,13 +9,13 @@
 <header>
   <h1 class="header-title text-light p-2">Software developer with interests in mobility solutions.</h1>
   <div *ngIf="showVideo(); else noVideo" class="header-size" >
-    <video poster="../assets/header_poster.jpg" autoplay="true" muted="true" loop>
-      <source src="../assets/Pexels Videos 2609.mp4" type="video/mp4">
+    <video poster="./assets/header_poster.jpg" autoplay="true" muted="true" loop>
+      <source src="./assets/Pexels Videos 2609.mp4" type="video/mp4">
     </video>
   </div>
   <ng-template #noVideo>
     <div class="header-size">
-      <img src="../assets/header_poster.jpg">
+      <img src="./assets/header_poster.jpg">
     </div>
   </ng-template>
 </header>
