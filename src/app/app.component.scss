@@ -10,3 +10,25 @@
     height: 80vh;
     object-fit: cover;
 }
+
+.header-overlay {
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+}
+
+.header-sort-down {
+    position: absolute;
+    left: calc(50vw - 18px);
+    top: 66vh;
+    animation-name: sort-down-animation;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sort-down-animation {
+    0% {top: 66vh;}
+    50% {top: 65.5vh;}
+    100% {top: 66vh;}
+}
