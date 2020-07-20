@@ -34,14 +34,11 @@
 }
 
 .gram-block {
-    width: 400px;
-    height: 400px;
-
-    min-width: 300px;
-    min-height: 300px;
+    max-width: 100vw;
 }
 
 .gram-container {
     display: block;
-    margin: 0 auto;
+    margin: 6px auto;
+    max-width: 90vw;
 }
