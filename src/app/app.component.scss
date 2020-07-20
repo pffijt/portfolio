@@ -32,3 +32,16 @@
     50% {top: 65.5vh;}
     100% {top: 66vh;}
 }
+
+.gram-block {
+    width: 400px;
+    height: 400px;
+
+    min-width: 300px;
+    min-height: 300px;
+}
+
+.gram-container {
+    display: block;
+    margin: 0 auto;
+}
