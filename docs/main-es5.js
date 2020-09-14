@@ -145,11 +145,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function AppComponent_div_16_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 33);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "video", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "video", 34);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "source", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "source", 35);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -159,9 +159,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function AppComponent_ng_template_17_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 33);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 36);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
@@ -232,9 +232,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           }, false, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresolveWindow"]);
         }
       },
-      decls: 43,
+      decls: 68,
       vars: 2,
-      consts: [["id", "navigation-bar", "role", "navigation", 1, "navbar", "navbar-light", "fixed-top"], ["routerLink", "/", 1, "navbar-brand", "text-light", "navigation-bar-element"], ["href", "https://nl.linkedin.com/in/pepijn-fijt-62781b185", "target", "_blank", 1, "mr-4", "text-light", "navigation-bar-element"], [1, "fa", "fa-linkedin", "fa-lg"], ["href", "https://github.com/pffijt", "target", "_blank", 1, "mr-4", "text-light", "navigation-bar-element"], [1, "fa", "fa-github", "fa-lg", "mr-1"], ["href", "mailto:mail@pepijnfijt.nl", 1, "text-light", "navigation-bar-element"], [1, "fa", "fa-paper-plane", "fa-lg", "mr-1"], [1, "header-overlay"], [1, "header-title", "text-light", "p-2"], [1, "header-sort-down"], [1, "fa", "fa-sort-down", "fa-2x", "text-light"], ["class", "header-size", 4, "ngIf", "ngIfElse"], ["noVideo", ""], [1, "section-project", "mt-0", "mb-0", "pt-5", "pb-5", "text-dark"], [1, "mt-0", "mb-0", "text-center"], [1, "row", "justify-content-center", "pt-5", "pb-5", 2, "margin-left", "-5px"], [1, "col-4", "no-gutters", "gram-block"], ["src", "https://picsum.photos/400/400", 1, "gram-container"], [1, "section-employer", "mt-0", "mb-0", "pt-5", "pb-5", "text-dark"], [1, "section-contact", "mt-0", "mb-0", "pt-5", "pb-5", "text-dark"], [1, "mt-0", "mb-0", "pb-4", "text-center"], [1, "text-center", "mb-3"], [1, "fa", "fa-paper-plane", "fa-lg", "pr-1"], ["href", "mailto:mail@pepijnfijt.nl", 1, "text-dark"], [1, "text-center"], [1, "fa", "fa-phone", "fa-lg", "pr-1"], [1, "header-size"], ["poster", "./assets/header_poster.jpg", "autoplay", "true", "muted", "true", "loop", ""], ["src", "./assets/Pexels Videos 2609.mp4", "type", "video/mp4"], ["src", "./assets/header_poster.jpg"]],
+      consts: [["id", "navigation-bar", "role", "navigation", 1, "navbar", "navbar-light", "fixed-top"], ["routerLink", "/", 1, "navbar-brand", "text-light", "navigation-bar-element"], ["href", "https://nl.linkedin.com/in/pepijn-fijt-62781b185", "target", "_blank", 1, "mr-4", "text-light", "navigation-bar-element"], [1, "fa", "fa-linkedin", "fa-lg"], ["href", "https://github.com/pffijt", "target", "_blank", 1, "mr-4", "text-light", "navigation-bar-element"], [1, "fa", "fa-github", "fa-lg", "mr-1"], ["href", "mailto:mail@pepijnfijt.nl", 1, "text-light", "navigation-bar-element"], [1, "fa", "fa-paper-plane", "fa-lg", "mr-1"], [1, "header-overlay"], [1, "header-title", "text-light", "p-2"], [1, "header-sort-down"], [1, "fa", "fa-sort-down", "fa-2x", "text-light"], ["class", "header-size", 4, "ngIf", "ngIfElse"], ["noVideo", ""], [1, "section-project", "mt-0", "mb-0", "pt-5", "pb-5", "text-dark"], [1, "mt-0", "mb-0", "text-center"], [1, "row", "justify-content-center", "pt-5", "pb-5", 2, "margin-left", "-5px"], [1, "col-4", "no-gutters", "gram-block"], ["src", "https://picsum.photos/400/400", 1, "gram-container"], [1, "section-employer", "mt-0", "mb-0", "pt-5", "pb-5", "text-dark"], [1, "d-flex", "justify-content-center"], [1, "card", "rounded-0", "mb-3", "mt-5", "mr-2", "ml-2", 2, "max-width", "18rem"], [1, "card-body", "text-dark"], [1, "card-title"], [1, "card-text"], [1, "card", "rounded-0", "mb-3", "mt-5", "ml-2", "mr-2", 2, "max-width", "18rem"], [1, "section-contact", "mt-0", "mb-0", "pt-5", "pb-5", "text-dark"], [1, "mt-0", "mb-0", "pb-4", "text-center"], [1, "text-center", "mb-3"], [1, "fa", "fa-paper-plane", "fa-lg", "pr-1"], ["href", "mailto:mail@pepijnfijt.nl", 1, "text-dark"], [1, "text-center"], [1, "fa", "fa-phone", "fa-lg", "pr-1"], [1, "header-size"], ["poster", "./assets/header_poster.jpg", "autoplay", "true", "muted", "true", "loop", ""], ["src", "./assets/Pexels Videos 2609.mp4", "type", "video/mp4"], ["src", "./assets/header_poster.jpg"]],
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
@@ -329,37 +329,105 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "h2", 15);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Current Employer");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Current Situation");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "h5", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Education");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "p", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "University of Applied Sciences Rotterdam");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "Informatics, Professional bachelor degree");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](44, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "(2017 - current)");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "section", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "h2", 21);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "div", 25);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Contact");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "h5", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Work");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 22);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "p", 24);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "i", 23);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "Junior Software Developer");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "a", 24);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](52, "br");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "pffijt@gmail.com");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](53, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "Sweco, de Bilt (The Netherlands)");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](55, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](56, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "(2019 - current)");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "div", 25);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "i", 26);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, " +31614125929 ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "section", 26);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "h2", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "Contact");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "div", 28);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](62, "i", 29);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "a", 30);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "pffijt@gmail.com");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "div", 31);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](66, "i", 32);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, " +31614125929 ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
