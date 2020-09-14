@@ -33,7 +33,7 @@ export class AppComponent {
 
   @HostListener('window:scroll', ['$event'])
   changeNavigationStyleEvent(event): void {
-    if (window.pageYOffset > this.vh(78.5)) {
+    if (window.pageYOffset > this.vh(76)) {
       this.changeNavigationStyle('text-dark', 'text-light');
       document.getElementById('navigation-bar').classList.add('bg-light');
     } else {
