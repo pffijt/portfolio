@@ -40,7 +40,21 @@
 .gram-container {
     display: block;
     margin: 6px auto;
+    margin-bottom: 30px;
     max-width: 90vw;
+    width: 400px;
+    height: 400px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.gram-container:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .section-project {
@@ -54,4 +68,9 @@
 
 .section-contact {
     background-color: #ffffff;
+}
+
+.navbar-animation {
+    -webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
 }
