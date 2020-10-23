@@ -20,23 +20,12 @@ export class AppComponent {
     return (v * w) / 100;
   }
 
-  changeNavigationStyle = (addClass: string, removeClass?: string): void => {
-    document.querySelectorAll('.navigation-bar-element').forEach(navElement => {
-      navElement.classList.add(addClass);
-      if (removeClass) {
-        navElement.classList.remove(removeClass);
-      }
-    });
-  }
-
   @HostListener('window:scroll', ['$event'])
   changeNavigationStyleEvent = (event): void => {
     if (window.pageYOffset > this.vh(76)) {
-      this.changeNavigationStyle('text-dark', 'text-light');
-      document.getElementById('navigation-bar').classList.add('bg-light');
+      document.getElementById('navigation-bar').classList.add('bg-nice-dark');
     } else {
-      this.changeNavigationStyle('text-light', 'text-dark');
-      document.getElementById('navigation-bar').classList.remove('bg-light');
+      document.getElementById('navigation-bar').classList.remove('bg-nice-dark');
     }
   }
 }

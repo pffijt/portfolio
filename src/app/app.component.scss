@@ -1,4 +1,4 @@
-
+/* Start: header */
 .header-size video, .header-size img {
     width: 100%;
     height: 80vh;
@@ -15,8 +15,10 @@
 .header-title {
     font-size: 40px !important;
 }
+/* End: header */
 
 /* The moving arrow inside the header with video/image */
+/* Start: Moving arrow */
 .header-moving-arrow {
     position: absolute;
     left: calc(50vw - 9.1px);
@@ -31,9 +33,15 @@
     50% {top: 65.5vh;}
     100% {top: 66vh;}
 }
+/* End: Moving arrow */
+
+/* This card type of style is mainly inspired of the work of youtuber Fireship  */
+/* Start: Card magic */
 
 .gram-list {
     display: flex;
+    overflow-x: scroll; 
+    overflow-y:hidden;
 }
 
 .gram-container {
@@ -46,9 +54,14 @@
 
     border-radius: 16px;
     background: #17141d;
+    color: #fff;
     box-shadow: -3rem 0 3rem #000;
 
     transition: .2s;
+}
+
+.gram-text {
+    padding: 1.5rem;
 }
 
 .gram-image {
@@ -67,6 +80,7 @@
 }
 
 .gram-container h2:first-child {
+    font-size: 3em;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -82,7 +96,16 @@
     transform: translateX(130px);
 }
 
+/* End: Card magic */
 
+.bg-nice-dark {
+    background-color: #17141d;
+    box-shadow: 0rem 0 3rem #000; 
+}
+
+.bg-blue-gradient {
+    background: linear-gradient(90deg, #00b7ff, #2ee59f) !important;
+}
 
 .section-project {
     background-color: #17141d;
