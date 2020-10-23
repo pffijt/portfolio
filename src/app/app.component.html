@@ -10,7 +10,7 @@
   <div class="header-overlay">
   </div>
   <h1 class="header-title text-light p-2">Software developer and smart mobility enthusiast.</h1>
-  <div class="header-sort-down">
+  <div class="header-moving-arrow">
     <i class="fa fa-sort-down fa-2x text-light"></i>
   </div>
   <div *ngIf="showVideo(); else noVideo" class="header-size">
@@ -26,18 +26,20 @@
 </header>
 <main>
   <section class="section-project mt-0 mb-0 pt-5 pb-5 text-dark">
-    <h2 class="mt-0 mb-0 text-center">Projects</h2>
-    <div class="row justify-content-center pt-5 pb-0" style="margin-left: -5px;">
-      <div class="col-4 no-gutters gram-block">
-        <img class="gram-container" src="./assets/connexxion_vehicle.jpg">
+    <div class="pt-5 pb-0 gram-list">
+      <div class="gram-container text-light">
+        <h2>Projects</h2>
       </div>
-      <div class="col-4 no-gutters gram-block">
-        <img class="gram-container" src="./assets/sr_project.jpg">
+      <div class="gram-container">
+        <img class="gram-image" src="./assets/connexxion_vehicle.jpg">
+      </div>
+      <div class="gram-container">
+        <img class="gram-image" src="./assets/sr_project.jpg">
       </div>
     </div>
   </section>
   <section class="section-employer mt-0 mb-0 pt-5 pb-5 text-dark">
-    <h2 class="mt-0 mb-0 text-center">Current Situation</h2>
+    <h2 class="mt-0 mb-0 text-light text-center">Current Situation</h2>
     <div class="d-flex justify-content-center">
       <div class="card rounded-0 mb-3 mt-5 mr-2 ml-2 text-center" style="max-width: 18rem;">
         <div class="card-body text-dark">
@@ -47,17 +49,21 @@
       </div>
     </div>
   </section>
-  <section class="section-contact mt-0 mb-0 pt-5 pb-5 text-dark">
-    <h2 class="mt-0 mb-0 pb-4 text-center">Contact</h2>
+  <footer class="section-contact mt-0 mb-0 pt-5 pb-5">
+    <h2 class="mt-0 mb-0 pb-4 text-light text-center">Contact</h2>
       
         <div class="text-center mb-3">
-          <i class="fa fa-paper-plane fa-lg pr-1"></i>
-          <a class="text-dark" href="mailto:mail@pepijnfijt.nl">pffijt@gmail.com</a>
+          <p class="text-light">
+            <i class="fa fa-paper-plane fa-lg pr-1"></i>
+            <a class="text-light" href="mailto:mail@pepijnfijt.nl">pffijt@gmail.com</a>
+          </p>
         </div>
    
         <div class="text-center">
-          <i class="fa fa-phone fa-lg pr-1"></i>
-          +31614125929
+          <p class="text-light">
+            <i class="fa fa-phone fa-lg pr-1"></i>
+            +31614125929
+          </p>
         </div>
-  </section>
+      </footer>
 </main>
