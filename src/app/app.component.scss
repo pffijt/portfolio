@@ -40,8 +40,14 @@
 
 .gram-list {
     display: flex;
-    overflow-x: hidden; 
+    overflow-x: scroll; 
     overflow-y: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.gram-list::-webkit-scrollbar {
+    display: none;
 }
 
 .gram-container {
