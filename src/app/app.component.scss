@@ -40,8 +40,8 @@
 
 .gram-list {
     display: flex;
-    overflow-x: scroll; 
-    overflow-y:hidden;
+    overflow-x: hidden; 
+    overflow-y: hidden;
 }
 
 .gram-container {
@@ -76,7 +76,7 @@
 
 .gram-container:first-child {
     background: linear-gradient(90deg, #ff8a00, #e52e71);
-    margin-left: 3rem;
+    margin-left: 1.5rem;
 }
 
 .gram-container h2:first-child {
