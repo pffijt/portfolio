@@ -7,7 +7,7 @@
 
 .header-overlay {
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 80vh;
     background-color: rgba($color: #17141d, $alpha: 0.85);
 }
@@ -44,6 +44,7 @@
     overflow-y: hidden;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+    justify-content: center;
 }
 
 .gram-list::-webkit-scrollbar {
@@ -100,6 +101,12 @@
 
 .gram-container:hover:not(:first-child)~.gram-container {
     transform: translateX(130px);
+}
+
+@media only screen and (max-width: 1150px) {
+    .gram-list {
+        justify-content: initial;
+    }
 }
 
 /* End: Card magic */
